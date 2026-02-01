@@ -1,9 +1,9 @@
 # JSON User Data Manipulation (Python) #
-# 📌 Project Overview #
+### 📌 Project Overview ###
 This project demonstrates how to load, process, and analyze user data stored in JSON format using Python.
 The script reads user data from a JSON file, displays it in a readable table, converts date formats, and performs basic data analysis such as counting logins, checking verified emails, and identifying the first and last registered users.
 
-# 📂 Project Structure #
+### 📂 Project Structure ###
 json_manipulation/
 │
 ├── main.py
@@ -11,7 +11,7 @@ json_manipulation/
 ├── requirements.txt
 └── README.md
 
-# 📄 Data Source #
+### 📄 Data Source ###
 The user data is provided in JSON format and contains information such as:
  - User ID
  - Name and email
@@ -19,7 +19,7 @@ The user data is provided in JSON format and contains information such as:
  - Account creation date
  - Email verification status
 
-# ⚙️ Requirements #
+### ⚙️ Requirements ###
 Ensure you have Python 3.x installed.
 Install the required libraries using:
 ```
@@ -30,13 +30,13 @@ Required Python Libraries
 `tabulate` – for table display
 `python-dateutil` – for date parsing
 
-# ▶️ How to Run the Program #
+### ▶️ How to Run the Program ###
 Open a terminal in the project directory
 Run the script:
 ```
 python main.py
 ```
-# 🧠 What the Program Does #
+### 🧠 What the Program Does ###
 ✅ 1. Load JSON Data
 Reads user data from a local JSON file
 Converts it into Python objects (lists and dictionaries)
@@ -59,12 +59,12 @@ Finds:
 The first user to create an account
 The most recent user to create an account
 
-# 🛡️ Error Handling & Defensive Coding #
+### 🛡️ Error Handling & Defensive Coding ###
 `.get()` is used to safely access dictionary keys
 Default values prevent crashes when fields are missing
 This reflects real-world API and JSON data handling
 
-# 📊 Sample Output #
+### 📊 Sample Output ###
 A table displaying all users
 ```
 USER DATA TABLE
@@ -101,9 +101,7 @@ Last Account Created:
 test9999@test.com - 2016-12-09 12:01:23
 ```
 
-# ✍️ Author #
+### ✍️ Author ###
 Favour Oyeleye
-
-✍️ Author
 
 Favour Oyeleye
