@@ -1,5 +1,5 @@
-### JSON User Data Manipulation (Python) ###
-#📌 Project Overview#
+# JSON User Data Manipulation (Python) #
+# 📌 Project Overview #
 This project demonstrates how to load, process, and analyze user data stored in JSON format using Python.
 The script reads user data from a JSON file, displays it in a readable table, converts date formats, and performs basic data analysis such as counting logins, checking verified emails, and identifying the first and last registered users.
 
